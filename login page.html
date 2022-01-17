@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	.nav-list li a 
+	{text-decoration: none;
+	color: white;}
+    .nav-list li a:hover  
+	{color: grey;}
+	/* Create two unequal columns that floats next to each other */
+	.column 
+      {
+	  
+	  float: left;
+	  padding: 10px;
+	  height: 1000px;
+      }
+	.left {width: 15%;}
+	.right{width: 85%;}
+</style>
+</head>
+<body style="margin:0;">
+<div class="row">
+  <div class="column left" style="background-color:#003366;">
+	<div class="logo">
+		<img style="max-width:100px;max-height:100px" src= "res/logo.jpg">
+	</div>
+   <nav class="navbar background">
+		<ul class="nav-list">
+			<li><a href="google solution challenge.html">Home</a><br>
+            <li><a href="about us.html">About Us</a><br>
+         	<li><a href="How to Contribute.html">Volunteer work</a><br>
+        	<li><a href="Volunteer work.html">How to Contribute</a><br>
+        	<li><a href="Contact Us.html">Contact Us</a><br>
+        </ul>
+	</nav>
+    </div>
+  
+    <div class="column right" style="background-color:#ffffff;">
+    <h1 style="color:#003366">Get started</h1>
+    <style>
+     * {
+        box-sizing: border-box;
+       }
+
+       /* Create three equal columns that floats next to each other */
+       .column 
+	   {
+       float: center;
+       padding: 10px;
+       height: 1000px; 
+       }
+	</style>
+
+    <body style="margin:0;">
+    <div class="row">
+    <div class="column" style="max-width:65%">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="    viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+        <script src="javascript.js"></script>
+            <title>Login System</title>
+        </head>
+        <body>
+            <div class="formContainer">
+            <input type="email" placeholder="email here" id="email"><br>
+            <input type="password" placeholder="password here" id="password"><br>
+            <button onclick="signUp()" id="signUp" style="background-color: rgb(3, 29, 63);color:#ffffff;">Register</button>
+            <button onclick="signIn()" id="signIp" style="background-color: rgb(3, 29, 63);color:#ffffff;">SignIn</button>
+            <button onclick="signOut()" id="signOut" style="background-color: rgb(3, 29, 63);color:#ffffff;">SignOut</button>
+            </div>
+        </body>
+</div>
+</body>
+</html>
+
+

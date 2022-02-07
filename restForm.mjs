@@ -37,8 +37,5 @@ function writeUserData(userId, name_rest, email, contact,plates)
   .catch((error) => {
     console.log('The write failed...')
   });
-  
-  console.log('set done')
 }
-console.log("Running function...")
 writeUserData(userId, name_rest, email,contact, plates)

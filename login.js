@@ -1,12 +1,14 @@
+
+
 var firebaseConfig = {
-    apiKey: "AIzaSyBpFdAqXmhQ3-vJ2vge5uEqWvthlmoLZxw",
-    authDomain: "no-hunger-52339.firebaseapp.com",
-    projectId: "no-hunger-52339",
-    storageBucket: "no-hunger-52339.appspot.com",
-    messagingSenderId: "96189775612",
-    appId: "1:96189775612:web:b56da7feae6ee9f4b02179",
-    measurementId: "G-SX099GQC0T"
-    };
+  apiKey: "AIzaSyDPTG5iWPu6vYViTipWue07n5c7Z7_keps",
+  authDomain: "zero-hunger-78b52.firebaseapp.com",
+  projectId: "zero-hunger-78b52",
+  storageBucket: "zero-hunger-78b52.appspot.com",
+  messagingSenderId: "895115731977",
+  appId: "1:895115731977:web:debe093bf71b393adf04d8",
+  measurementId: "G-94N538CFKT"
+  };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 

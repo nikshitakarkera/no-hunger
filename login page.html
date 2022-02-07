@@ -6,7 +6,8 @@
 	{text-decoration: none;
 	color: white;}
     .nav-list li a:hover  
-	{color: grey;}
+    	{color: grey;}
+	
 	/* Create two unequal columns that floats next to each other */
 	.column 
       {
@@ -62,12 +63,18 @@
         
         <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+
+        <script src="login.js"></script>
+
         <script src="javascript.js"></script>
+
             <title>Login System</title>
         </head>
         <body>
             <div class="formContainer">
-            <input type="email" placeholder="email here" id="email"><br>
+
+            <input type="email" placeholder="email id / Phone number here" id="email"><br>
+
             <input type="password" placeholder="password here" id="password"><br>
             <button onclick="signUp()" id="signUp" style="background-color: rgb(3, 29, 63);color:#ffffff;">Register</button>
             <button onclick="signIn()" id="signIp" style="background-color: rgb(3, 29, 63);color:#ffffff;">SignIn</button>

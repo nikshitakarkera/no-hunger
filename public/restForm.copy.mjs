@@ -4,8 +4,7 @@ import { getDatabase } from "firebase/database";
 
 console.log("Testing");
 
-const firebaseConfig = 
-{
+const firebaseConfig = {
   apiKey: "AIzaSyDPTG5iWPu6vYViTipWue07n5c7Z7_keps",
   authDomain: "zero-hunger-78b52.firebaseapp.com",
   databaseURL: "https://zero-hunger-78b52-default-rtdb.asia-southeast1.firebasedatabase.app/",
@@ -30,15 +29,8 @@ function writeUserData(userId, name_rest, email, contact,plates)
     username: name_rest,
     email: email,
     contact: contact,
-    plates:plates
-  }).then(() => {
-    console.log('Data saved successfully!')
-  })
-  .catch((error) => {
-    console.log('The write failed...')
+    plates:plates,
   });
-
-  
   console.log('set done')
 }
 console.log("Running function...")

@@ -1,9 +1,0 @@
-
-{
-  "name": "my-package",
-  "scripts": {
-    "start": "node restForm.mjs"
-  },
-  "type": "module",
-  "version": "0.0.0"
-}
